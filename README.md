@@ -25,7 +25,6 @@ Built on [PennyLane](https://pennylane.ai), [Gymnasium](https://gymnasium.farama
 - [Output files](#output-files)
 - [Configuration reference](#configuration-reference)
 - [Monitoring with TensorBoard](#monitoring-with-tensorboard)
-- [Citation](#citation)
 
 ---
 
@@ -310,13 +309,3 @@ tensorboard --logdir experiments/W_n13/models/runs
 | `quantum/ep_reward`, `quantum/reward_per_gate` | episode return (before `VecNormalize`) |
 
 ---
-
-## Citation
-
-```bibtex
-@article{mordacci2026curriculum,
-  title   = {Curriculum Learning-Based Reinforcement Learning Agent for Approximate Quantum State Preparation},
-  author  = {Mordacci, Marco and Amoretti, Michele},
-  year    = {2026}
-}
-```
