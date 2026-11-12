@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Training outputs
+*.zip
+*.pkl
+runs/
+experiments/
+*_warmstart.json
+targets/
+*.npy
+
+# SLURM
+slurm-*.out
+*.err
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
