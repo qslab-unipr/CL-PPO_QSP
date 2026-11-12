@@ -1,4 +1,5 @@
-# CL-PPO-QSP
+# Curriculum Learning-Based Reinforcement Learning Agent
+for Approximate Quantum State Preparation
 
 Code for the paper **"Curriculum Learning-Based Reinforcement Learning Agent
 for Approximate Quantum State Preparation"** (M. Mordacci, M. Amoretti).
