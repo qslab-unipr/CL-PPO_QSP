@@ -18,9 +18,6 @@ An episode *terminates* when the distance drops below ``threshold`` and is
 
 The env exposes :meth:`QuantumGymEnv.action_masks`, so it plugs directly into
 ``sb3_contrib.MaskablePPO``.
-
-Configuration fixed to the one used in the paper: ``log_pen`` reward and
-``stepsnorm_res`` observation.
 """
 
 from __future__ import annotations

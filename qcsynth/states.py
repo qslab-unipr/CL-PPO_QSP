@@ -8,9 +8,6 @@ Everything that produces a *target statevector* lives here:
   ``prepare_curriculum.py`` to build the top-down curriculum chain for random
   targets (the stages of that chain are then trained as ``custom`` targets).
 
-All statevectors are ``numpy`` arrays of dtype ``complex128`` and length
-``2**n_qubits``. Basis-index convention: PennyLane's default, i.e. wire 0 is
-the most-significant bit of the basis index.
 """
 
 from __future__ import annotations
