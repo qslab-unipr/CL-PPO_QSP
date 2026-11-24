@@ -1,6 +1,6 @@
-# Curriculum Learning-Based Reinforcement Learning Agent for Approximate Quantum State Preparation
+# Curriculum Learning-Based Agent for Approximate Quantum State Preparation
 
-Code for the paper **"Curriculum Learning-Based Reinforcement Learning Agent
+Code for the paper **"Curriculum Learning-Based Agent
 for Approximate Quantum State Preparation"** (M. Mordacci, M. Amoretti).
 
 A PPO agent builds a circuit gate by gate, while PyTorch Adam tunes the rotation angles
